@@ -14,7 +14,7 @@ import {
 import Grid from '@mui/material/Grid';
 import { EventTracker } from '@devexpress/dx-react-chart';
 
-export default class Dashboard extends Component {
+export class Dashboard extends Component {
     static displayName = Dashboard.name;
 
     constructor(props) {
@@ -106,3 +106,5 @@ export default class Dashboard extends Component {
         }
     }
 }
+
+export default Dashboard;
